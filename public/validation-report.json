@@ -1,0 +1,573 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-11-14T11:56:52.780315+00:00",
+  "seed": 20261114,
+  "status": "Offline research benchmarks; not clinically validated",
+  "clinical_use_enabled": false,
+  "environment": {
+    "python": "3.12.14",
+    "numpy": "2.2.6",
+    "pandas": "2.2.3",
+    "sklearn": "1.6.1"
+  },
+  "models": [
+    {
+      "id": "HR",
+      "label": "Heart rate",
+      "unit": "bpm",
+      "task": "PhysioNet ICU: predict the next recorded observation from three past observations. Variable horizon; not a daily astronaut forecast.",
+      "features": [
+        "lag3",
+        "lag2",
+        "lag1",
+        "gap2",
+        "gap1",
+        "elapsed"
+      ],
+      "selected_model": "gradient_boosting",
+      "validation_candidate_group_mae": {
+        "ridge_1": 4.9267543801980755,
+        "ridge_100": 4.927861887357126,
+        "gradient_boosting": 4.874722001335705
+      },
+      "validation": {
+        "mae": 4.8424481617602995,
+        "rmse": 7.689268782527676,
+        "r2": 0.8253513699219028,
+        "group_mae": 4.874722001335705,
+        "group_mae_ci95": [
+          4.735901012477856,
+          5.030950258303885
+        ]
+      },
+      "test": {
+        "mae": 4.854395217679786,
+        "rmse": 7.651300749848826,
+        "r2": 0.8314206130301764,
+        "group_mae": 4.88148185219224,
+        "group_mae_ci95": [
+          4.814653523323667,
+          4.94709440170538
+        ]
+      },
+      "baseline_test": {
+        "mae": 4.9690601058113195,
+        "rmse": 8.250671069214615,
+        "r2": 0.8039745449382223,
+        "group_mae": 5.02191349675275,
+        "group_mae_ci95": [
+          4.950669574098236,
+          5.096729011006229
+        ]
+      },
+      "baseline_validation": {
+        "mae": 4.942654536333994,
+        "rmse": 8.29338602304296,
+        "r2": 0.7968303370813811,
+        "group_mae": 5.004123892560047,
+        "group_mae_ci95": [
+          4.850838319037556,
+          5.177941797418409
+        ]
+      },
+      "counts": {
+        "train": {
+          "groups": 3144,
+          "rows": 172872
+        },
+        "validation": {
+          "groups": 792,
+          "rows": 43857
+        },
+        "test": {
+          "groups": 3935,
+          "rows": 216801
+        }
+      },
+      "clinical_use_enabled": false,
+      "beats_baseline": true,
+      "test_horizon_minutes": {
+        "0.1": 15.0,
+        "0.5": 60.0,
+        "0.9": 60.0
+      }
+    },
+    {
+      "id": "NISysABP",
+      "label": "Systolic pressure (non-invasive)",
+      "unit": "mmHg",
+      "task": "PhysioNet ICU: predict the next recorded observation from three past observations. Variable horizon; not a daily astronaut forecast.",
+      "features": [
+        "lag3",
+        "lag2",
+        "lag1",
+        "gap2",
+        "gap1",
+        "elapsed"
+      ],
+      "selected_model": "gradient_boosting",
+      "validation_candidate_group_mae": {
+        "ridge_1": 10.612413101705602,
+        "ridge_100": 10.613173679487478,
+        "gradient_boosting": 10.430004563198624
+      },
+      "validation": {
+        "mae": 9.780695759898881,
+        "rmse": 14.35925536030849,
+        "r2": 0.6197059148482492,
+        "group_mae": 10.430004563198624,
+        "group_mae_ci95": [
+          9.922051555261543,
+          11.077436261748652
+        ]
+      },
+      "test": {
+        "mae": 9.700813185056159,
+        "rmse": 13.896022975992288,
+        "r2": 0.6448151175215605,
+        "group_mae": 10.44800875580217,
+        "group_mae_ci95": [
+          10.226752211637846,
+          10.65562402162109
+        ]
+      },
+      "baseline_test": {
+        "mae": 10.59287346536428,
+        "rmse": 15.798568589229545,
+        "r2": 0.5408982947784651,
+        "group_mae": 11.38361557056984,
+        "group_mae_ci95": [
+          11.136348746949471,
+          11.613203805151185
+        ]
+      },
+      "baseline_validation": {
+        "mae": 10.741535968516697,
+        "rmse": 16.469606279888,
+        "r2": 0.4997096025912785,
+        "group_mae": 11.681942855429034,
+        "group_mae_ci95": [
+          11.081093690442476,
+          12.466054000542423
+        ]
+      },
+      "counts": {
+        "train": {
+          "groups": 2485,
+          "rows": 70976
+        },
+        "validation": {
+          "groups": 626,
+          "rows": 17279
+        },
+        "test": {
+          "groups": 3119,
+          "rows": 89272
+        }
+      },
+      "clinical_use_enabled": false,
+      "beats_baseline": true,
+      "test_horizon_minutes": {
+        "0.1": 15.0,
+        "0.5": 60.0,
+        "0.9": 60.0
+      }
+    },
+    {
+      "id": "NIDiasABP",
+      "label": "Diastolic pressure (non-invasive)",
+      "unit": "mmHg",
+      "task": "PhysioNet ICU: predict the next recorded observation from three past observations. Variable horizon; not a daily astronaut forecast.",
+      "features": [
+        "lag3",
+        "lag2",
+        "lag1",
+        "gap2",
+        "gap1",
+        "elapsed"
+      ],
+      "selected_model": "gradient_boosting",
+      "validation_candidate_group_mae": {
+        "ridge_1": 7.704561648552135,
+        "ridge_100": 7.705218928514766,
+        "gradient_boosting": 7.540547006236243
+      },
+      "validation": {
+        "mae": 7.499602803977693,
+        "rmse": 10.782139726853734,
+        "r2": 0.5030261177241255,
+        "group_mae": 7.540547006236243,
+        "group_mae_ci95": [
+          7.2592370121703365,
+          7.85534657163054
+        ]
+      },
+      "test": {
+        "mae": 7.518179421464858,
+        "rmse": 10.633566451199025,
+        "r2": 0.5215977205303908,
+        "group_mae": 7.59399570060418,
+        "group_mae_ci95": [
+          7.48035049525264,
+          7.703460750515446
+        ]
+      },
+      "baseline_test": {
+        "mae": 8.652946983464584,
+        "rmse": 12.769866712716196,
+        "r2": 0.3100651699461714,
+        "group_mae": 8.71974971435541,
+        "group_mae_ci95": [
+          8.572078253413014,
+          8.86773494270263
+        ]
+      },
+      "baseline_validation": {
+        "mae": 8.738208367134083,
+        "rmse": 13.033141918666646,
+        "r2": 0.2738574213505499,
+        "group_mae": 8.710086038543908,
+        "group_mae_ci95": [
+          8.372463129506622,
+          9.076552792431077
+        ]
+      },
+      "counts": {
+        "train": {
+          "groups": 2480,
+          "rows": 70897
+        },
+        "validation": {
+          "groups": 624,
+          "rows": 17258
+        },
+        "test": {
+          "groups": 3114,
+          "rows": 89142
+        }
+      },
+      "clinical_use_enabled": false,
+      "beats_baseline": true,
+      "test_horizon_minutes": {
+        "0.1": 15.0,
+        "0.5": 60.0,
+        "0.9": 60.0
+      }
+    },
+    {
+      "id": "Temp",
+      "label": "Temperature",
+      "unit": "°C",
+      "task": "PhysioNet ICU: predict the next recorded observation from three past observations. Variable horizon; not a daily astronaut forecast.",
+      "features": [
+        "lag3",
+        "lag2",
+        "lag1",
+        "gap2",
+        "gap1",
+        "elapsed"
+      ],
+      "selected_model": "gradient_boosting",
+      "validation_candidate_group_mae": {
+        "ridge_1": 0.37558163548116985,
+        "ridge_100": 0.37575184686231494,
+        "gradient_boosting": 0.3595388133904095
+      },
+      "validation": {
+        "mae": 0.3058142981210195,
+        "rmse": 1.0274541647880093,
+        "r2": 0.5227779112400137,
+        "group_mae": 0.3595388133904095,
+        "group_mae_ci95": [
+          0.3342813724168944,
+          0.39219340230577926
+        ]
+      },
+      "test": {
+        "mae": 0.27178517767479904,
+        "rmse": 0.7258299794806549,
+        "r2": 0.5050032184290334,
+        "group_mae": 0.35311941223103144,
+        "group_mae_ci95": [
+          0.34511017549555495,
+          0.36130913962435063
+        ]
+      },
+      "baseline_test": {
+        "mae": 0.2871027341541771,
+        "rmse": 0.8826512961691866,
+        "r2": 0.26800030959062593,
+        "group_mae": 0.38345344703002193,
+        "group_mae_ci95": [
+          0.371900019431277,
+          0.3948688132740792
+        ]
+      },
+      "baseline_validation": {
+        "mae": 0.2825066160005428,
+        "rmse": 0.7814544772106053,
+        "r2": 0.7239403131904312,
+        "group_mae": 0.3657329836598231,
+        "group_mae_ci95": [
+          0.3502621526150887,
+          0.38205336925373695
+        ]
+      },
+      "counts": {
+        "train": {
+          "groups": 3140,
+          "rows": 59641
+        },
+        "validation": {
+          "groups": 790,
+          "rows": 14737
+        },
+        "test": {
+          "groups": 3933,
+          "rows": 72527
+        }
+      },
+      "clinical_use_enabled": false,
+      "beats_baseline": true,
+      "test_horizon_minutes": {
+        "0.1": 15.0,
+        "0.5": 60.0,
+        "0.9": 240.0
+      }
+    },
+    {
+      "id": "Glucose",
+      "label": "Serum glucose",
+      "unit": "mg/dL",
+      "task": "PhysioNet ICU: predict the next recorded observation from three past observations. Variable horizon; not a daily astronaut forecast.",
+      "features": [
+        "lag3",
+        "lag2",
+        "lag1",
+        "gap2",
+        "gap1",
+        "elapsed"
+      ],
+      "selected_model": "ridge_100",
+      "validation_candidate_group_mae": {
+        "ridge_1": 27.343754035344308,
+        "ridge_100": 27.285296310492953,
+        "gradient_boosting": 27.447862564642644
+      },
+      "validation": {
+        "mae": 27.12135777072048,
+        "rmse": 39.8029619077325,
+        "r2": 0.11586423074928842,
+        "group_mae": 27.285296310492953,
+        "group_mae_ci95": [
+          24.552855740459812,
+          29.981265898405734
+        ]
+      },
+      "test": {
+        "mae": 32.01732056884066,
+        "rmse": 56.73923016440821,
+        "r2": 0.1385204582594598,
+        "group_mae": 30.84511118900317,
+        "group_mae_ci95": [
+          28.981716040030495,
+          32.94059659646285
+        ]
+      },
+      "baseline_test": {
+        "mae": 36.46424852481777,
+        "rmse": 69.06829556011435,
+        "r2": -0.2765433510995743,
+        "group_mae": 35.69896696951635,
+        "group_mae_ci95": [
+          33.22281107945138,
+          38.38847035512586
+        ]
+      },
+      "baseline_validation": {
+        "mae": 33.12135922330097,
+        "rmse": 55.03451403099542,
+        "r2": -0.6902792143353529,
+        "group_mae": 34.198017331932775,
+        "group_mae_ci95": [
+          29.719428724614843,
+          38.75906797093838
+        ]
+      },
+      "counts": {
+        "train": {
+          "groups": 1056,
+          "rows": 2244
+        },
+        "validation": {
+          "groups": 272,
+          "rows": 618
+        },
+        "test": {
+          "groups": 1438,
+          "rows": 2881
+        }
+      },
+      "clinical_use_enabled": false,
+      "beats_baseline": true,
+      "test_horizon_minutes": {
+        "0.1": 221.0,
+        "0.5": 491.0,
+        "0.9": 1020.0
+      }
+    },
+    {
+      "id": "sleep",
+      "label": "Usual weekday sleep",
+      "unit": "h",
+      "task": "NHANES 2017–2018: cross-sectional prediction of self-reported usual weekday sleep from age, pulse and blood pressure. Not a next-night forecast; not total daily sleep.",
+      "features": [
+        "RIDAGEYR",
+        "BPXPLS",
+        "systolic",
+        "diastolic"
+      ],
+      "selected_model": "gradient_boosting",
+      "validation_candidate_group_mae": {
+        "ridge_1": 1.2236191500104916,
+        "ridge_100": 1.2232789709413752,
+        "gradient_boosting": 1.2180903808365833
+      },
+      "validation": {
+        "mae": 1.2180903808365835,
+        "rmse": 1.606229509776925,
+        "r2": 0.003104235484996387,
+        "group_mae": 1.2180903808365833,
+        "group_mae_ci95": [
+          1.1604038565523171,
+          1.2824186188719207
+        ]
+      },
+      "test": {
+        "mae": 1.2479607204282996,
+        "rmse": 1.651487602586469,
+        "r2": 0.0084833580413185,
+        "group_mae": 1.2479607204282996,
+        "group_mae_ci95": [
+          1.1837231944251156,
+          1.31295288527021
+        ]
+      },
+      "baseline_test": {
+        "mae": 1.274473924977127,
+        "rmse": 1.668007999436697,
+        "r2": -0.011452821926512202,
+        "group_mae": 1.274473924977127,
+        "group_mae_ci95": [
+          1.2099725526075022,
+          1.3412625800548947
+        ]
+      },
+      "baseline_validation": {
+        "mae": 1.2342177493138151,
+        "rmse": 1.6156258931239247,
+        "r2": -0.00859348720469888,
+        "group_mae": 1.2342177493138151,
+        "group_mae_ci95": [
+          1.1761093321134493,
+          1.2946248856358646
+        ]
+      },
+      "counts": {
+        "train": {
+          "groups": 3278,
+          "rows": 3278
+        },
+        "validation": {
+          "groups": 1093,
+          "rows": 1093
+        },
+        "test": {
+          "groups": 1093,
+          "rows": 1093
+        }
+      },
+      "clinical_use_enabled": false,
+      "beats_baseline": true
+    }
+  ],
+  "mood": {
+    "status": "not_trained",
+    "reason": "DPQ020 is frequency of feeling down/depressed/hopeless over two weeks (0–3). It is not the app’s current mood score (1–5). No conversion or diagnostic model is implemented.",
+    "source_variable": "DPQ020",
+    "response_counts": {
+      "0": 3865,
+      "1": 831,
+      "2": 224,
+      "3": 167
+    },
+    "missing_refused_unknown": 446
+  },
+  "sources": [
+    {
+      "file": "BPX_J.xpt",
+      "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/BPX_J.xpt",
+      "sha256": "f98f1d9a4c18173e715c749b4294f6f1525140d5ad5751316bb17cc038fb3423",
+      "bytes": 1466000
+    },
+    {
+      "file": "DEMO_J.xpt",
+      "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/DEMO_J.xpt",
+      "sha256": "c0b46e0345ea19404928656277c8b0d10b0cca348a9b2fe4fc3c67e8b7ee73ec",
+      "bytes": 3412720
+    },
+    {
+      "file": "DPQ_J.xpt",
+      "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/DPQ_J.xpt",
+      "sha256": "1c075f332e79736bd2360b41b0c10ed526883417e0b5996c407b1c564b01ca24",
+      "bytes": 489280
+    },
+    {
+      "file": "set-a.tar.gz",
+      "url": "https://physionet.org/files/challenge-2012/1.0.0/set-a.tar.gz",
+      "sha256": "8cb250f179cd0952b4b9ebcf8954b63d70383131670fac1cfee13deaa13ca920",
+      "bytes": 6632372
+    },
+    {
+      "file": "set-b.tar.gz",
+      "url": "https://physionet.org/files/challenge-2012/1.0.0/set-b.tar.gz",
+      "sha256": "b1637a2a423a8e76f8f087896cfc5fdf28f88519e1f4e874fbda69b2a64dac30",
+      "bytes": 6652690
+    },
+    {
+      "file": "SLQ_J.xpt",
+      "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/SLQ_J.xpt",
+      "sha256": "5486e1c51d56a959c94106d131a11b2e58bdec8ff30917ad7748917c6fa09f3a",
+      "bytes": 470560
+    }
+  ],
+  "audit": {
+    "physionet_a": {
+      "negative_or_nonfinite": 24,
+      "duplicate_timestamp_values_averaged": 207
+    },
+    "physionet_b": {
+      "negative_or_nonfinite": 17,
+      "duplicate_timestamp_values_averaged": 220
+    }
+  },
+  "limitations": [
+    "ICU stays are not healthy astronauts; there is no astronaut external validation.",
+    "RecordID identifies an ICU stay, not a person; distinct stays from the same individual cannot be ruled out.",
+    "Set A is split 80/20 for training/validation. Set B is a held-out source cohort, not external-hospital validation.",
+    "Only past readings predict the next observed reading; irregular measurement timing and treatments can influence results.",
+    "Only non-negative finite readings are retained; other outliers are retained. Duplicate variable/timestamp observations are averaged.",
+    "Sleep uses a 60/20/20 respondent split. Survey weights/clustering are not used: these are unweighted research benchmarks, not US population estimates.",
+    "Sleep values below 3 or above 14 are grouped codes and excluded. Predictors missing in Ridge are imputed from training only.",
+    "No diagnosis labels, emergency protocol validation, treatment recommendations, or doctor comparison were evaluated.",
+    "Mood, free-text symptoms and glucose fasting/device context do not have a validated model here.",
+    "NASA OSD-575 remains an independent reference dataset; it is not pooled with these cohorts or used for training.",
+    "Model choice uses validation only. Test errors are reported even if the trained model loses to its baseline."
+  ],
+  "api": {
+    "training": "No API key required; public file downloads.",
+    "clinical": "No medical inference API enabled. An LLM API does not establish medical accuracy."
+  },
+  "split_manifest_sha256": "69cb765e8c05ded3712e40396c59bf57af6500c37d78394f0220032808e45b13",
+  "training_script_sha256": "1da2e5defa85d6c1ae9d01b629ad5824e664b727bce8dd4cf4972fd4a2cb5f78"
+}

@@ -1,0 +1,10 @@
+import test from 'node:test';import assert from 'node:assert/strict';
+import {seedRecords,baseline,validate,observations,csv} from '../src/domain.mjs';
+test('seed data is reproducible and fictional',()=>{const d=new Date('2026-11-14T15:00:00Z');assert.deepEqual(seedRecords(d),seedRecords(d));assert.equal(seedRecords(d).length,42);assert.ok(seedRecords(d).every(r=>r.source==='simulated'));});
+test('baseline requires three observations and uses first seven',()=>{assert.equal(baseline([{sleep:4,timestamp:'1'}],'sleep').value,null);assert.equal(baseline(Array.from({length:9},(_,i)=>({sleep:i,timestamp:String(i)})),'sleep').value,3);});
+test('validation rejects incompatible pressure and absent glucose context',()=>{assert.equal(validate({profile:'aria',systolic:70,diastolic:80,glucose:90}).length,2);assert.equal(validate({profile:'aria',sleep:7}).length,0);});
+test('missing and stale records are explicit',()=>{assert.equal(observations([])[0].id,'missing');assert.ok(observations([{id:'old',timestamp:'2000-01-01'}]).some(x=>x.id==='stale-old'));});
+test('CSV quotes untrusted spreadsheet formulas',()=>{assert.ok(csv([{symptoms:'=1+1'}]).includes("'=1+1"));});
+test('validation rejects blank context and fractional mood',()=>{assert.ok(validate({profile:'test',glucose:100,glucoseContext:'  '}).length);assert.ok(validate({profile:'test',mood:3.5}).length);assert.ok(validate({profile:'  ',sleep:7}).length);assert.ok(validate({profile:'test',sleep:7,timestamp:'2999-01-01'}).length);});
+test('CSV blocks formulas hidden behind whitespace and control characters',()=>{for(const value of ['  =1+1','\t=1+1','\n+1+1','@SUM(A1)','-1+1'])assert.ok(csv([{symptoms:value}]).includes('"\''+value));});
+test('outdated observation uses newest timestamp regardless of storage order',()=>{const rows=[{id:'new',timestamp:'2026-11-14T10:00:00Z'},{id:'old',timestamp:'2000-01-01T00:00:00Z'}];assert.ok(!observations(rows,Date.parse('2026-11-14T12:00:00Z')).some(x=>x.title==='Reading is outdated'));assert.equal(rows[0].id,'new');});

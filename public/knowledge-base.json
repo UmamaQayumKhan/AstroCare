@@ -1,0 +1,924 @@
+{
+  "version": "1.0",
+  "builtAt": "2026-11-15T09:05:32.182Z",
+  "sourceReviewDate": "2026-11-14",
+  "contentHash": "9fdda4d08bb0d595a8d63083178402098d0e42140cb5cfe66affd942537681e3",
+  "scope": "Curated evidence summaries and project reports; not complete source documents or clinical protocols.",
+  "chunks": [
+    {
+      "id": "source-hazards",
+      "title": "Five Hazards of Human Spaceflight",
+      "text": "NASA organizes human spaceflight challenges into five interacting hazards. Scope: Educational background.",
+      "sources": [
+        {
+          "title": "Five Hazards of Human Spaceflight",
+          "url": "https://www.nasa.gov/hrp/hazards/",
+          "agency": "NASA"
+        }
+      ],
+      "kind": "Curated source summary"
+    },
+    {
+      "id": "source-risks",
+      "title": "Risks of Human Spaceflight",
+      "text": "Spaceflight can affect circulation, balance, immunity, nutrition and other aspects of health. Effects differ by mission destination. Scope: Research background.",
+      "sources": [
+        {
+          "title": "Risks of Human Spaceflight",
+          "url": "https://www.nasa.gov/hrp/risks/",
+          "agency": "NASA"
+        }
+      ],
+      "kind": "Curated source summary"
+    },
+    {
+      "id": "source-research",
+      "title": "Ongoing HRP Research in Space",
+      "text": "NASA describes investigations including ARCHeR, which monitored activity, sleep and wellbeing, and Standard Measures, which collects consistent physiological and psychological information. Scope: Research overview, not clinical guidance.",
+      "sources": [
+        {
+          "title": "Ongoing HRP Research in Space",
+          "url": "https://www.nasa.gov/hrp/ongoing-hrp-research/",
+          "agency": "NASA"
+        }
+      ],
+      "kind": "Curated source summary"
+    },
+    {
+      "id": "source-radiation",
+      "title": "Monitoring radiation for astronaut health",
+      "text": "The Canadian Active Neutron Spectrometer is being developed for continuous, autonomous neutron-radiation measurements. The article discusses instrumentation, not a live data service. Scope: Technology development.",
+      "sources": [
+        {
+          "title": "Monitoring radiation for astronaut health",
+          "url": "https://www.asc-csa.gc.ca/eng/news/articles/2026/2026-02-26-monitoring-radiation-astronaut-health.asp",
+          "agency": "Canadian Space Agency"
+        }
+      ],
+      "kind": "Curated source summary"
+    },
+    {
+      "id": "source-earth",
+      "title": "Why do we conduct science experiments in space?",
+      "text": "Space experiments support deep-space preparation and knowledge that can benefit health on Earth. Longer missions face communication delays and reduced access to supplies and emergency medical assistance. Scope: Educational background.",
+      "sources": [
+        {
+          "title": "Why do we conduct science experiments in space?",
+          "url": "https://www.asc-csa.gc.ca/eng/iss/science/why-do-we-conduct-science-experiments-in-space.asp",
+          "agency": "Canadian Space Agency"
+        }
+      ],
+      "kind": "Curated source summary"
+    },
+    {
+      "id": "source-pulse",
+      "title": "Pulse",
+      "text": "A pulse can be counted at the wrist. Activity and measurement context matter when comparing readings. Scope: General education, not a spaceflight procedure.",
+      "sources": [
+        {
+          "title": "Pulse",
+          "url": "https://medlineplus.gov/ency/article/003399.htm",
+          "agency": "MedlinePlus / U.S. National Library of Medicine"
+        }
+      ],
+      "kind": "Curated source summary"
+    },
+    {
+      "id": "source-temperature",
+      "title": "Temperature measurement",
+      "text": "Temperature can help identify illness. Measurement method and recent activity, eating or drinking affect interpretation. Scope: General education, not a spaceflight procedure.",
+      "sources": [
+        {
+          "title": "Temperature measurement",
+          "url": "https://www.medlineplus.gov/ency/article/003400.htm",
+          "agency": "MedlinePlus / U.S. National Library of Medicine"
+        }
+      ],
+      "kind": "Curated source summary"
+    },
+    {
+      "id": "source-bp",
+      "title": "Home Blood Pressure Monitoring",
+      "text": "Validated upper-arm devices, appropriate cuffs, quiet rest and consistent positioning support reliable home measurements. Scope: Earth-based education, not a microgravity protocol.",
+      "sources": [
+        {
+          "title": "Home Blood Pressure Monitoring",
+          "url": "https://www.heart.org/en/health-topics/high-blood-pressure/understanding-blood-pressure-readings/monitoring-your-blood-pressure-at-home",
+          "agency": "American Heart Association"
+        }
+      ],
+      "kind": "Curated source summary"
+    },
+    {
+      "id": "source-bpCategories",
+      "title": "Understanding Blood Pressure Readings",
+      "text": "Blood pressure categories for adults: normal below 120/80 mmHg, elevated 120-129 systolic, stage 1 130-139 or 80-89, stage 2 at or above 140 or 90 mmHg. Scope: Earth adult reference ranges, not microgravity-specific.",
+      "sources": [
+        {
+          "title": "Understanding Blood Pressure Readings",
+          "url": "https://www.heart.org/en/health-topics/high-blood-pressure/understanding-blood-pressure-readings",
+          "agency": "American Heart Association"
+        }
+      ],
+      "kind": "Curated source summary"
+    },
+    {
+      "id": "source-sleepCdc",
+      "title": "About Sleep",
+      "text": "Adults generally need 7 or more hours of sleep per night; insufficient sleep affects health and performance. Scope: Public-health guidance.",
+      "sources": [
+        {
+          "title": "About Sleep",
+          "url": "https://www.cdc.gov/sleep/about/index.html",
+          "agency": "CDC"
+        }
+      ],
+      "kind": "Curated source summary"
+    },
+    {
+      "id": "source-glucoseRef",
+      "title": "Blood glucose test",
+      "text": "Fasting blood glucose of 70-99 mg/dL is the usual normal range; values below 70 mg/dL are low. Meal timing changes interpretation. Scope: General education.",
+      "sources": [
+        {
+          "title": "Blood glucose test",
+          "url": "https://medlineplus.gov/ency/article/003482.htm",
+          "agency": "MedlinePlus / U.S. National Library of Medicine"
+        }
+      ],
+      "kind": "Curated source summary"
+    },
+    {
+      "id": "source-osd575",
+      "title": "OSD-575: Inspiration4 comprehensive metabolic panel",
+      "text": "Blood chemistry from the four civilian Inspiration4 crew at three pre-flight and four post-flight timepoints, with laboratory reference ranges. Scope: Real spaceflight research data.",
+      "sources": [
+        {
+          "title": "OSD-575: Inspiration4 comprehensive metabolic panel",
+          "url": "https://osdr.nasa.gov/bio/repo/data/studies/OSD-575",
+          "agency": "NASA Open Science Data Repository"
+        }
+      ],
+      "kind": "Curated source summary"
+    },
+    {
+      "id": "source-radCruise",
+      "title": "Measurements of energetic particle radiation in transit to Mars on the Mars Science Laboratory",
+      "text": "The RAD instrument measured an average dose-equivalent rate of about 1.84 mSv per day inside the spacecraft during cruise to Mars. Scope: Peer-reviewed measurement.",
+      "sources": [
+        {
+          "title": "Measurements of energetic particle radiation in transit to Mars on the Mars Science Laboratory",
+          "url": "https://doi.org/10.1126/science.1235989",
+          "agency": "Zeitlin et al., Science (2013)"
+        }
+      ],
+      "kind": "Curated source summary"
+    },
+    {
+      "id": "source-radMars",
+      "title": "Mars' surface radiation environment measured with the Mars Science Laboratory's Curiosity rover",
+      "text": "Curiosity's RAD measured an average dose-equivalent rate of about 0.64 mSv per day on the Martian surface. Scope: Peer-reviewed measurement.",
+      "sources": [
+        {
+          "title": "Mars' surface radiation environment measured with the Mars Science Laboratory's Curiosity rover",
+          "url": "https://doi.org/10.1126/science.1244797",
+          "agency": "Hassler et al., Science (2014)"
+        }
+      ],
+      "kind": "Curated source summary"
+    },
+    {
+      "id": "source-radMoon",
+      "title": "First measurements of the radiation dose on the lunar surface",
+      "text": "Chang'e 4's Lunar Lander Neutron and Dosimetry experiment measured a dose-equivalent rate of about 1.37 mSv per day on the lunar surface. Scope: Peer-reviewed measurement.",
+      "sources": [
+        {
+          "title": "First measurements of the radiation dose on the lunar surface",
+          "url": "https://doi.org/10.1126/sciadv.aaz1334",
+          "agency": "Zhang et al., Science Advances (2020)"
+        }
+      ],
+      "kind": "Curated source summary"
+    },
+    {
+      "id": "source-physionet",
+      "title": "PhysioNet/Computing in Cardiology Challenge 2012",
+      "text": "Open ICU dataset of 8,000 stays with time-stamped vital signs. AstroCare trains next-observation forecasters on heart rate, blood pressure and temperature. Scope: Research dataset (Earth ICU population).",
+      "sources": [
+        {
+          "title": "PhysioNet/Computing in Cardiology Challenge 2012",
+          "url": "https://physionet.org/content/challenge-2012/1.0.0/",
+          "agency": "PhysioNet"
+        }
+      ],
+      "kind": "Curated source summary"
+    },
+    {
+      "id": "source-pvtBasner",
+      "title": "Maximizing sensitivity of the psychomotor vigilance test (PVT) to sleep loss",
+      "text": "Defines the brief 3-minute PVT (PVT-B): 2-5 s random intervals, lapses as responses of 355 ms or longer, and shows it remains sensitive to sleep loss. Scope: Peer-reviewed method.",
+      "sources": [
+        {
+          "title": "Maximizing sensitivity of the psychomotor vigilance test (PVT) to sleep loss",
+          "url": "https://doi.org/10.1093/sleep/34.5.581",
+          "agency": "Basner & Dinges, SLEEP (2011)"
+        }
+      ],
+      "kind": "Curated source summary"
+    },
+    {
+      "id": "source-cognitionBattery",
+      "title": "Development and validation of the Cognition test battery for spaceflight",
+      "text": "Describes a 10-test cognitive battery, including a PVT, designed for astronauts and used in spaceflight research. Scope: Peer-reviewed method.",
+      "sources": [
+        {
+          "title": "Development and validation of the Cognition test battery for spaceflight",
+          "url": "https://doi.org/10.3357/AMHP.4343.2015",
+          "agency": "Basner et al., Aerospace Medicine and Human Performance (2015)"
+        }
+      ],
+      "kind": "Curated source summary"
+    },
+    {
+      "id": "hazard-radiation",
+      "title": "Space radiation",
+      "text": "Radiation is invisible and presents a major spaceflight hazard. Explore simulated instrument history. Ordinary vital signs do not measure radiation exposure.",
+      "sources": [
+        {
+          "title": "Five Hazards of Human Spaceflight",
+          "url": "https://www.nasa.gov/hrp/hazards/",
+          "agency": "NASA"
+        },
+        {
+          "title": "Monitoring radiation for astronaut health",
+          "url": "https://www.asc-csa.gc.ca/eng/news/articles/2026/2026-02-26-monitoring-radiation-astronaut-health.asp",
+          "agency": "Canadian Space Agency"
+        }
+      ],
+      "kind": "Curated source summary"
+    },
+    {
+      "id": "hazard-isolation",
+      "title": "Isolation and confinement",
+      "text": "Long periods in confined groups can affect behavior and teamwork. Record sleep and self-reported mood; these are observations, not a mental-health diagnosis.",
+      "sources": [
+        {
+          "title": "Five Hazards of Human Spaceflight",
+          "url": "https://www.nasa.gov/hrp/hazards/",
+          "agency": "NASA"
+        },
+        {
+          "title": "Ongoing HRP Research in Space",
+          "url": "https://www.nasa.gov/hrp/ongoing-hrp-research/",
+          "agency": "NASA"
+        }
+      ],
+      "kind": "Curated source summary"
+    },
+    {
+      "id": "hazard-distance",
+      "title": "Distance from Earth",
+      "text": "Medical care, advice and supplies become harder to obtain farther from Earth. Keep guidance and records available offline. Export a handover for later communication.",
+      "sources": [
+        {
+          "title": "Five Hazards of Human Spaceflight",
+          "url": "https://www.nasa.gov/hrp/hazards/",
+          "agency": "NASA"
+        },
+        {
+          "title": "Why do we conduct science experiments in space?",
+          "url": "https://www.asc-csa.gc.ca/eng/iss/science/why-do-we-conduct-science-experiments-in-space.asp",
+          "agency": "Canadian Space Agency"
+        }
+      ],
+      "kind": "Curated source summary"
+    },
+    {
+      "id": "hazard-gravity",
+      "title": "Changing gravity",
+      "text": "Muscles, bones, balance and internal organs adapt to different gravity conditions. Log symptoms and measurement context. Routine vital signs do not quantify bone density.",
+      "sources": [
+        {
+          "title": "Five Hazards of Human Spaceflight",
+          "url": "https://www.nasa.gov/hrp/hazards/",
+          "agency": "NASA"
+        },
+        {
+          "title": "Risks of Human Spaceflight",
+          "url": "https://www.nasa.gov/hrp/risks/",
+          "agency": "NASA"
+        }
+      ],
+      "kind": "Curated source summary"
+    },
+    {
+      "id": "hazard-environment",
+      "title": "Hostile and closed environments",
+      "text": "Spacecraft must manage conditions including temperature, pressure, noise and microbial communities. Track observations and symptoms. Cabin conditions require dedicated environmental sensors.",
+      "sources": [
+        {
+          "title": "Five Hazards of Human Spaceflight",
+          "url": "https://www.nasa.gov/hrp/hazards/",
+          "agency": "NASA"
+        },
+        {
+          "title": "Risks of Human Spaceflight",
+          "url": "https://www.nasa.gov/hrp/risks/",
+          "agency": "NASA"
+        }
+      ],
+      "kind": "Curated source summary"
+    },
+    {
+      "id": "measure-heartRate",
+      "title": "Heart rate",
+      "text": "A consistent pulse history describes cardiovascular observations; it does not identify their cause. For a resting reading, rest first and record recent activity. Place the index and middle fingers under the opposite wrist, below the thumb base. Count beats for one full minute and record the result and time. Scope: General education; use mission-approved procedures in flight.",
+      "sources": [
+        {
+          "title": "Pulse",
+          "url": "https://medlineplus.gov/ency/article/003399.htm",
+          "agency": "MedlinePlus / U.S. National Library of Medicine"
+        },
+        {
+          "title": "Risks of Human Spaceflight",
+          "url": "https://www.nasa.gov/hrp/risks/",
+          "agency": "NASA"
+        }
+      ],
+      "kind": "Educational measurement summary"
+    },
+    {
+      "id": "measure-bloodPressure",
+      "title": "Blood pressure",
+      "text": "NASA studies cardiovascular adaptation in weightlessness. Record both values and measurement context. Earth training example: use a validated upper-arm monitor with the correct cuff size. Rest quietly for at least five minutes; place the cuff on bare skin and support the arm at heart level. Follow device instructions; take two readings one minute apart and record each. Scope: Earth-based guidance. These posture instructions are not validated microgravity procedures.",
+      "sources": [
+        {
+          "title": "Home Blood Pressure Monitoring",
+          "url": "https://www.heart.org/en/health-topics/high-blood-pressure/understanding-blood-pressure-readings/monitoring-your-blood-pressure-at-home",
+          "agency": "American Heart Association"
+        },
+        {
+          "title": "Risks of Human Spaceflight",
+          "url": "https://www.nasa.gov/hrp/risks/",
+          "agency": "NASA"
+        }
+      ],
+      "kind": "Educational measurement summary"
+    },
+    {
+      "id": "measure-temperature",
+      "title": "Body temperature",
+      "text": "Temperature can help assess illness; measurement method affects comparisons. Use a digital thermometer and follow its cleaning and operating instructions. For oral measurement, position the probe under the tongue, close the mouth and wait for the device signal. Record the site, value and time. Recent exercise, food and hot or cold drinks may affect readings. Scope: General education; follow the mission-approved device procedure.",
+      "sources": [
+        {
+          "title": "Temperature measurement",
+          "url": "https://www.medlineplus.gov/ency/article/003400.htm",
+          "agency": "MedlinePlus / U.S. National Library of Medicine"
+        }
+      ],
+      "kind": "Educational measurement summary"
+    },
+    {
+      "id": "measure-sleep",
+      "title": "Sleep duration",
+      "text": "NASA's ARCHeR research includes sleep, activity and wellbeing observations. Enter estimated total sleep during the previous 24 hours. Use the same reporting window each time. Mark this as self-report, not a wearable measurement. Scope: AstroCare reporting convention, not a validated questionnaire.",
+      "sources": [
+        {
+          "title": "Ongoing HRP Research in Space",
+          "url": "https://www.nasa.gov/hrp/ongoing-hrp-research/",
+          "agency": "NASA"
+        }
+      ],
+      "kind": "Educational measurement summary"
+    },
+    {
+      "id": "measure-mood",
+      "title": "Mood check-in",
+      "text": "Wellbeing observations can support conversations about how someone feels. Choose the rating that best matches how you feel now. Add context in your own words. This app-designed scale does not diagnose a condition. Scope: Unvalidated self-report scale.",
+      "sources": [
+        {
+          "title": "Ongoing HRP Research in Space",
+          "url": "https://www.nasa.gov/hrp/ongoing-hrp-research/",
+          "agency": "NASA"
+        }
+      ],
+      "kind": "Educational measurement summary"
+    },
+    {
+      "id": "measure-glucose",
+      "title": "Blood glucose",
+      "text": "Record a measured glucose value together with the method and fasting or meal context. Research forecasts do not diagnose a condition. Use the mission-approved glucose device and follow its instructions. Check that the device uses mg/dL before entering a reading; do not enter mmol/L in this field. Record the time, device, measurement method and fasting or meal context. Do not change medication based on this prototype. Scope: AstroCare logging convention; NASA risks motivate the feature but do not provide a glucose measurement or treatment protocol.",
+      "sources": [
+        {
+          "title": "Risks of Human Spaceflight",
+          "url": "https://www.nasa.gov/hrp/risks/",
+          "agency": "NASA"
+        }
+      ],
+      "kind": "Educational measurement summary"
+    },
+    {
+      "id": "datasets-overview",
+      "title": "Which datasets does AstroCare use?",
+      "text": "NASA OSD-575 provides a separate Inspiration4 serum-glucose research table. PhysioNet/CinC 2012 sets A and B provide 8,000 ICU stays for heart rate, non-invasive systolic and diastolic pressure, temperature and serum-glucose forecasting. CDC NHANES 2017-2018 provides 5,464 eligible adult records for a separate usual-weekday-sleep experiment. The cohorts are not pooled. Mood 1-5, symptoms and glucose measurement context have no validated model.",
+      "sources": [
+        {
+          "title": "NASA OSD-575",
+          "url": "https://osdr.nasa.gov/bio/repo/data/studies/OSD-575",
+          "agency": "NASA OSDR"
+        },
+        {
+          "title": "PhysioNet/CinC Challenge 2012",
+          "url": "https://physionet.org/content/challenge-2012/1.0.0/",
+          "agency": "PhysioNet"
+        },
+        {
+          "title": "CDC NHANES 2017-2018",
+          "url": "https://wwwn.cdc.gov/nchs/nhanes/continuousnhanes/default.aspx?BeginYear=2017",
+          "agency": "CDC / NCHS"
+        },
+        {
+          "title": "AstroCare methods and limitations",
+          "url": "/research-methods.md",
+          "agency": "AstroCare project"
+        }
+      ],
+      "kind": "Project dataset overview"
+    },
+    {
+      "id": "dataset-nasa",
+      "title": "NASA OSD-575 Inspiration4 blood chemistry",
+      "text": "NASA OSD-575: LSDS-8 Comprehensive Metabolic Panel transformed CSV from the four civilian Inspiration4 crew, 28 samples at three pre-flight (L-92, L-44, L-3) and four post-flight (R+1, R+45, R+82, R+194) timepoints. The Spaceflight biomarkers page plots 16 analytes per crew member against laboratory reference ranges and shows the change from each person’s own pre-flight mean. These samples are research observations, not user readings, training data, normal ranges or external validation of AstroCare. No model was trained on OSD-575. The race-based eGFR column is excluded.",
+      "sources": [
+        {
+          "title": "NASA OSD-575",
+          "url": "https://osdr.nasa.gov/bio/repo/data/studies/OSD-575",
+          "agency": "NASA OSDR"
+        },
+        {
+          "title": "AstroCare methods and limitations",
+          "url": "/research-methods.md",
+          "agency": "AstroCare project"
+        }
+      ],
+      "kind": "Dataset usage"
+    },
+    {
+      "id": "dataset-physionet",
+      "title": "PhysioNet training validation and testing",
+      "text": "The PhysioNet/CinC 2012 open dataset contains adult ICU observations. AstroCare uses set A: 3,200 training and 800 validation stays, and set B: 4,000 held-out test stays. Each variable has fewer eligible stays when history is missing. RecordID identifies an ICU stay; multiple stays from one person cannot be ruled out. It is not astronaut or external-hospital validation. License: Open Data Commons Attribution v1.0.",
+      "sources": [
+        {
+          "title": "PhysioNet/CinC Challenge 2012",
+          "url": "https://physionet.org/content/challenge-2012/1.0.0/",
+          "agency": "PhysioNet"
+        },
+        {
+          "title": "AstroCare methods and limitations",
+          "url": "/research-methods.md",
+          "agency": "AstroCare project"
+        }
+      ],
+      "kind": "Dataset usage"
+    },
+    {
+      "id": "dataset-nhanes",
+      "title": "NHANES sleep and mood questionnaires",
+      "text": "CDC NHANES 2017-2018 files DEMO_J, BPX_J, SLQ_J and DPQ_J are joined by SEQN within this cycle only. The sleep experiment includes 5,464 adults: 3,278 training, 1,093 validation and 1,093 test. SLD012 describes usual weekday sleep, not total daily sleep or tomorrow’s sleep. Age, pulse and mean blood pressure are predictors. Results are unweighted research results, not US population estimates.",
+      "sources": [
+        {
+          "title": "CDC NHANES 2017-2018",
+          "url": "https://wwwn.cdc.gov/nchs/nhanes/continuousnhanes/default.aspx?BeginYear=2017",
+          "agency": "CDC / NCHS"
+        },
+        {
+          "title": "AstroCare methods and limitations",
+          "url": "/research-methods.md",
+          "agency": "AstroCare project"
+        }
+      ],
+      "kind": "Dataset usage"
+    },
+    {
+      "id": "mood-coverage",
+      "title": "Mood scale and depression questionnaire are different",
+      "text": "DPQ020 is frequency of feeling down/depressed/hopeless over two weeks (0–3). It is not the app’s current mood score (1–5). No conversion or diagnostic model is implemented. No mood predictor was trained. Mood in the app is a user-entered observation, not a diagnosis.",
+      "sources": [
+        {
+          "title": "CDC DPQ_J questionnaire codebook",
+          "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/DPQ_J.htm",
+          "agency": "CDC / NCHS"
+        },
+        {
+          "title": "AstroCare methods and limitations",
+          "url": "/research-methods.md",
+          "agency": "AstroCare project"
+        }
+      ],
+      "kind": "Coverage limitation"
+    },
+    {
+      "id": "clinical-limits",
+      "title": "Doctor accuracy and clinical readiness",
+      "text": "AstroCare has no clinical validation, NASA approval or doctor-level accuracy claim. The experiments predict recorded measurements, not diagnoses. ICU patients differ from healthy astronauts. No diagnostic sensitivity, specificity, treatment outcomes or comparison with doctors was evaluated. The research models do not control health guidance or replace measurements. Flight-medicine review and prospective independent validation are still needed.",
+      "sources": [
+        {
+          "title": "AstroCare methods and limitations",
+          "url": "/research-methods.md",
+          "agency": "AstroCare project"
+        },
+        {
+          "title": "Recorded validation results",
+          "url": "/validation-report.json",
+          "agency": "AstroCare project"
+        }
+      ],
+      "kind": "Project limitation"
+    },
+    {
+      "id": "glucose-context",
+      "title": "Glucose units and measurement context",
+      "text": "The research glucose unit is mg/dL. PhysioNet provides serum glucose observations; fasting status is not established in this benchmark. Record fasting or meal context, device, measurement method and time with a personal reading. A research forecast does not establish a personal diagnosis or a treatment dose.",
+      "sources": [
+        {
+          "title": "PhysioNet/CinC Challenge 2012",
+          "url": "https://physionet.org/content/challenge-2012/1.0.0/",
+          "agency": "PhysioNet"
+        },
+        {
+          "title": "AstroCare methods and limitations",
+          "url": "/research-methods.md",
+          "agency": "AstroCare project"
+        }
+      ],
+      "kind": "Project reporting convention"
+    },
+    {
+      "id": "model-HR",
+      "title": "Heart rate model evaluation",
+      "text": "PhysioNet ICU: predict the next recorded observation from three past observations. Variable horizon; not a daily astronaut forecast. Selected model: gradient_boosting. Test mean absolute error (MAE): 4.85 bpm. Baseline MAE: 4.97 bpm. MAE is an average error, not an accuracy percentage or individual prediction interval. Test records: 3935 groups, 216801 observations. Baseline repeats the last reading. This is research only; clinical inference is disabled.",
+      "sources": [
+        {
+          "title": "Recorded validation results",
+          "url": "/validation-report.json",
+          "agency": "AstroCare project"
+        },
+        {
+          "title": "AstroCare methods and limitations",
+          "url": "/research-methods.md",
+          "agency": "AstroCare project"
+        },
+        {
+          "title": "PhysioNet/CinC Challenge 2012",
+          "url": "https://physionet.org/content/challenge-2012/1.0.0/",
+          "agency": "PhysioNet"
+        }
+      ],
+      "kind": "Recorded project result"
+    },
+    {
+      "id": "model-NISysABP",
+      "title": "Systolic pressure (non-invasive) model evaluation",
+      "text": "PhysioNet ICU: predict the next recorded observation from three past observations. Variable horizon; not a daily astronaut forecast. Selected model: gradient_boosting. Test mean absolute error (MAE): 9.70 mmHg. Baseline MAE: 10.59 mmHg. MAE is an average error, not an accuracy percentage or individual prediction interval. Test records: 3119 groups, 89272 observations. Baseline repeats the last reading. This is research only; clinical inference is disabled.",
+      "sources": [
+        {
+          "title": "Recorded validation results",
+          "url": "/validation-report.json",
+          "agency": "AstroCare project"
+        },
+        {
+          "title": "AstroCare methods and limitations",
+          "url": "/research-methods.md",
+          "agency": "AstroCare project"
+        },
+        {
+          "title": "PhysioNet/CinC Challenge 2012",
+          "url": "https://physionet.org/content/challenge-2012/1.0.0/",
+          "agency": "PhysioNet"
+        }
+      ],
+      "kind": "Recorded project result"
+    },
+    {
+      "id": "model-NIDiasABP",
+      "title": "Diastolic pressure (non-invasive) model evaluation",
+      "text": "PhysioNet ICU: predict the next recorded observation from three past observations. Variable horizon; not a daily astronaut forecast. Selected model: gradient_boosting. Test mean absolute error (MAE): 7.52 mmHg. Baseline MAE: 8.65 mmHg. MAE is an average error, not an accuracy percentage or individual prediction interval. Test records: 3114 groups, 89142 observations. Baseline repeats the last reading. This is research only; clinical inference is disabled.",
+      "sources": [
+        {
+          "title": "Recorded validation results",
+          "url": "/validation-report.json",
+          "agency": "AstroCare project"
+        },
+        {
+          "title": "AstroCare methods and limitations",
+          "url": "/research-methods.md",
+          "agency": "AstroCare project"
+        },
+        {
+          "title": "PhysioNet/CinC Challenge 2012",
+          "url": "https://physionet.org/content/challenge-2012/1.0.0/",
+          "agency": "PhysioNet"
+        }
+      ],
+      "kind": "Recorded project result"
+    },
+    {
+      "id": "model-Temp",
+      "title": "Temperature model evaluation",
+      "text": "PhysioNet ICU: predict the next recorded observation from three past observations. Variable horizon; not a daily astronaut forecast. Selected model: gradient_boosting. Test mean absolute error (MAE): 0.27 °C. Baseline MAE: 0.29 °C. MAE is an average error, not an accuracy percentage or individual prediction interval. Test records: 3933 groups, 72527 observations. Baseline repeats the last reading. This is research only; clinical inference is disabled.",
+      "sources": [
+        {
+          "title": "Recorded validation results",
+          "url": "/validation-report.json",
+          "agency": "AstroCare project"
+        },
+        {
+          "title": "AstroCare methods and limitations",
+          "url": "/research-methods.md",
+          "agency": "AstroCare project"
+        },
+        {
+          "title": "PhysioNet/CinC Challenge 2012",
+          "url": "https://physionet.org/content/challenge-2012/1.0.0/",
+          "agency": "PhysioNet"
+        }
+      ],
+      "kind": "Recorded project result"
+    },
+    {
+      "id": "model-Glucose",
+      "title": "Serum glucose model evaluation",
+      "text": "PhysioNet ICU: predict the next recorded observation from three past observations. Variable horizon; not a daily astronaut forecast. Selected model: ridge_100. Test mean absolute error (MAE): 32.02 mg/dL. Baseline MAE: 36.46 mg/dL. MAE is an average error, not an accuracy percentage or individual prediction interval. Test records: 1438 groups, 2881 observations. Baseline repeats the last reading. This is research only; clinical inference is disabled.",
+      "sources": [
+        {
+          "title": "Recorded validation results",
+          "url": "/validation-report.json",
+          "agency": "AstroCare project"
+        },
+        {
+          "title": "AstroCare methods and limitations",
+          "url": "/research-methods.md",
+          "agency": "AstroCare project"
+        },
+        {
+          "title": "PhysioNet/CinC Challenge 2012",
+          "url": "https://physionet.org/content/challenge-2012/1.0.0/",
+          "agency": "PhysioNet"
+        }
+      ],
+      "kind": "Recorded project result"
+    },
+    {
+      "id": "model-sleep",
+      "title": "Usual weekday sleep model evaluation",
+      "text": "NHANES 2017–2018: cross-sectional prediction of self-reported usual weekday sleep from age, pulse and blood pressure. Not a next-night forecast; not total daily sleep. Selected model: gradient_boosting. Test mean absolute error (MAE): 1.25 h. Baseline MAE: 1.27 h. MAE is an average error, not an accuracy percentage or individual prediction interval. Test records: 1093 groups, 1093 observations. Baseline predicts the training median. This is research only; clinical inference is disabled.",
+      "sources": [
+        {
+          "title": "Recorded validation results",
+          "url": "/validation-report.json",
+          "agency": "AstroCare project"
+        },
+        {
+          "title": "AstroCare methods and limitations",
+          "url": "/research-methods.md",
+          "agency": "AstroCare project"
+        },
+        {
+          "title": "CDC NHANES 2017-2018",
+          "url": "https://wwwn.cdc.gov/nchs/nhanes/continuousnhanes/default.aspx?BeginYear=2017",
+          "agency": "CDC / NCHS"
+        }
+      ],
+      "kind": "Recorded project result"
+    },
+    {
+      "id": "emergency-boundary",
+      "title": "Urgent concerns and emergency workspace",
+      "text": "For an urgent concern, follow the mission’s approved emergency procedure and contact the crew medical officer or flight surgeon through available channels. On Earth, contact local emergency services for an immediate emergency. AstroCare cannot assess an emergency, recommend medication or provide an approved treatment protocol. Its emergency workspace records observations and exports a handover; it does not transmit it.",
+      "sources": [
+        {
+          "title": "AstroCare methods and limitations",
+          "url": "/research-methods.md",
+          "agency": "AstroCare project"
+        }
+      ],
+      "kind": "Project safety boundary"
+    },
+    {
+      "id": "privacy",
+      "title": "How profiles and chat data are handled",
+      "text": "Personal profiles and observations stay in this browser unless the optional local API sync is configured. Nova source search runs on the device and does not upload the question. Optional AI synthesis sends only the typed question and retrieved public evidence to the configured model provider; it does not automatically access profiles or health records. Chat messages are session-only and can be cleared. The app does not provide production authentication or clinical data infrastructure.",
+      "sources": [
+        {
+          "title": "AstroCare methods and limitations",
+          "url": "/research-methods.md",
+          "agency": "AstroCare project"
+        }
+      ],
+      "kind": "Project behavior"
+    },
+    {
+      "id": "rag-method",
+      "title": "How Nova retrieval and RAG work",
+      "text": "Nova searches versioned curated summaries, dataset documentation and recorded evaluation results with BM25 keyword ranking. It shows source passages and links. Local mode returns source excerpts without a language model. Optional server-side RAG uses retrieved chunks to ask a language model for a cited explanation. Unsupported questions return insufficient evidence. The corpus is a curated subset, not the full NASA website, raw patient records or clinical protocols.",
+      "sources": [
+        {
+          "title": "AstroCare methods and limitations",
+          "url": "/research-methods.md",
+          "agency": "AstroCare project"
+        }
+      ],
+      "kind": "Project behavior"
+    },
+    {
+      "id": "monitoring-layers",
+      "title": "How AstroCare detects unusual readings",
+      "text": "AstroCare monitoring uses transparent layers and every alert explains which rule fired. 1) Reference ranges: published adult ranges from the American Heart Association, MedlinePlus and CDC flag values concerning for anyone. 2) Personal baseline: the median and robust spread (MAD) of each astronaut’s first 10 check-ins define their own typical range; a reading 2.5 or more robust standard deviations away is unusual for that person. 3) Trend detection: a Theil-Sen slope over the last 10 readings flags steady drifts, such as sleep declining during isolation, before any single value looks abnormal. 4) Symptom keywords route urgent descriptions to the emergency workflow. Alerts are prompts for the crew medical officer, not diagnoses.",
+      "sources": [
+        {
+          "title": "AstroCare monitoring method",
+          "url": "/research-methods.md",
+          "agency": "AstroCare project"
+        },
+        {
+          "title": "Understanding Blood Pressure Readings",
+          "url": "https://www.heart.org/en/health-topics/high-blood-pressure/understanding-blood-pressure-readings",
+          "agency": "American Heart Association"
+        },
+        {
+          "title": "Pulse",
+          "url": "https://medlineplus.gov/ency/article/003399.htm",
+          "agency": "MedlinePlus / U.S. National Library of Medicine"
+        },
+        {
+          "title": "About Sleep",
+          "url": "https://www.cdc.gov/sleep/about/index.html",
+          "agency": "CDC"
+        }
+      ],
+      "kind": "Project method"
+    },
+    {
+      "id": "conformal-band",
+      "title": "Live monitor model and conformal expected range",
+      "text": "The live monitor uses gradient-boosted tree models trained on PhysioNet ICU data to forecast the next heart rate, systolic and diastolic pressure and temperature reading from the previous three readings. The models are exported to JSON and run in the browser. A split-conformal 90% expected range is calibrated on PhysioNet validation stays; on 4,000 held-out test stays about 90% of readings fell inside it. A wearable reading outside the band is flagged as a sudden unexpected change. The bands come from ICU patients and need astronaut or analog recalibration.",
+      "sources": [
+        {
+          "title": "Exported browser models and conformal radii",
+          "url": "/models/vitals-models.json",
+          "agency": "AstroCare project"
+        },
+        {
+          "title": "PhysioNet/Computing in Cardiology Challenge 2012",
+          "url": "https://physionet.org/content/challenge-2012/1.0.0/",
+          "agency": "PhysioNet"
+        },
+        {
+          "title": "AstroCare methods and limitations",
+          "url": "/research-methods.md",
+          "agency": "AstroCare project"
+        }
+      ],
+      "kind": "Project method"
+    },
+    {
+      "id": "wearable-sim",
+      "title": "Simulated wearable and live scenarios",
+      "text": "The live monitor streams simulated wearable readings every 5 simulated minutes. Scenarios include an exercise session, fever onset, orthostatic stress like standing after a gravity transition, and a sensor dropout that is reported as signal lost rather than assumed normal. All live data is labelled simulated; no real sensor is connected.",
+      "sources": [
+        {
+          "title": "AstroCare monitoring method",
+          "url": "/research-methods.md",
+          "agency": "AstroCare project"
+        }
+      ],
+      "kind": "Project behavior"
+    },
+    {
+      "id": "i4-findings",
+      "title": "What the Inspiration4 biomarkers show",
+      "text": "In NASA OSD-575 each Inspiration4 crew member started from a different pre-flight level, and post-flight changes differed per person. This supports comparing each astronaut to their own baseline rather than a single population threshold, and continuing monitoring after landing. With four people and a three-day mission these are observations only.",
+      "sources": [
+        {
+          "title": "NASA OSD-575",
+          "url": "https://osdr.nasa.gov/bio/repo/data/studies/OSD-575",
+          "agency": "NASA OSDR"
+        }
+      ],
+      "kind": "Dataset interpretation"
+    },
+    {
+      "id": "radiation-planner",
+      "title": "Radiation dose by mission environment",
+      "text": "Measured dose-equivalent rates: about 1.84 mSv per day in cruise to Mars (MSL RAD, Zeitlin 2013), 0.64 mSv per day on the Martian surface (Hassler 2014), 1.37 mSv per day on the lunar surface (Chang’e 4, Zhang 2020). NASA-STD-3001 sets a 600 mSv career effective-dose limit. Vital signs do not measure radiation; exposure requires calibrated instruments such as the CSA Canadian Active Neutron Spectrometer.",
+      "sources": [
+        {
+          "title": "Measurements of energetic particle radiation in transit to Mars on the Mars Science Laboratory",
+          "url": "https://doi.org/10.1126/science.1235989",
+          "agency": "Zeitlin et al., Science (2013)"
+        },
+        {
+          "title": "Mars' surface radiation environment measured with the Mars Science Laboratory's Curiosity rover",
+          "url": "https://doi.org/10.1126/science.1244797",
+          "agency": "Hassler et al., Science (2014)"
+        },
+        {
+          "title": "First measurements of the radiation dose on the lunar surface",
+          "url": "https://doi.org/10.1126/sciadv.aaz1334",
+          "agency": "Zhang et al., Science Advances (2020)"
+        },
+        {
+          "title": "Monitoring radiation for astronaut health",
+          "url": "https://www.asc-csa.gc.ca/eng/news/articles/2026/2026-02-26-monitoring-radiation-astronaut-health.asp",
+          "agency": "Canadian Space Agency"
+        }
+      ],
+      "kind": "Curated source summary"
+    },
+    {
+      "id": "handover-sbar",
+      "title": "Emergency handover and communication delay",
+      "text": "The emergency workspace runs an event clock, logs timestamped observations, attaches the latest vitals and monitoring findings, and formats an SBAR handover: situation, background, assessment and request. It shows the worst-case round-trip communication delay, up to about 44 minutes for Mars, so crew know when the earliest ground reply could arrive. Nothing is transmitted automatically and no treatment steps are provided.",
+      "sources": [
+        {
+          "title": "AstroCare methods and limitations",
+          "url": "/research-methods.md",
+          "agency": "AstroCare project"
+        },
+        {
+          "title": "Why do we conduct science experiments in space?",
+          "url": "https://www.asc-csa.gc.ca/eng/iss/science/why-do-we-conduct-science-experiments-in-space.asp",
+          "agency": "Canadian Space Agency"
+        }
+      ],
+      "kind": "Project behavior"
+    },
+    {
+      "id": "pvt-module",
+      "title": "Psychomotor vigilance test (PVT) and cognitive performance",
+      "text": "The cognitive test module runs a reaction-time test in the browser: a counter appears after a random 2 to 5 second interval and the crew member responds as fast as possible. Following the brief PVT-B protocol of Basner and Dinges, a lapse is a response of 355 ms or longer and a false start is a response under 100 ms or before the counter. Results are compared with the person’s own earlier tests; slowed response speed and more lapses are sensitive markers of fatigue and sleep loss. A cognitive test battery including a PVT was developed for spaceflight. It is a self-monitoring aid, not a fitness-for-duty decision.",
+      "sources": [
+        {
+          "title": "Maximizing sensitivity of the psychomotor vigilance test (PVT) to sleep loss",
+          "url": "https://doi.org/10.1093/sleep/34.5.581",
+          "agency": "Basner & Dinges, SLEEP (2011)"
+        },
+        {
+          "title": "Development and validation of the Cognition test battery for spaceflight",
+          "url": "https://doi.org/10.3357/AMHP.4343.2015",
+          "agency": "Basner et al., Aerospace Medicine and Human Performance (2015)"
+        }
+      ],
+      "kind": "Project method"
+    },
+    {
+      "id": "exercise-module",
+      "title": "Exercise countermeasures",
+      "text": "Weightlessness unloads bone and muscle, so crews follow a daily exercise prescription of resistive and aerobic exercise. The exercise module logs sessions and computes 7-day compliance against a configurable weekly prescription (default 360 minutes resistive, 210 minutes aerobic, 6 active days). Compliance under 75% is a watch finding and under 50% an alert, because missed countermeasures accelerate bone, muscle and fitness loss.",
+      "sources": [
+        {
+          "title": "Five Hazards of Human Spaceflight",
+          "url": "https://www.nasa.gov/hrp/hazards/",
+          "agency": "NASA"
+        },
+        {
+          "title": "Risks of Human Spaceflight",
+          "url": "https://www.nasa.gov/hrp/risks/",
+          "agency": "NASA"
+        }
+      ],
+      "kind": "Project method"
+    },
+    {
+      "id": "supplies-module",
+      "title": "Medical supply logistics and run-out projection",
+      "text": "On a Mars mission there is no resupply, so the medical supplies module projects when each kit item runs out. Usage rate is units dispensed in the last 14 days divided by 14, or the planned weekly rate when there is too little history. Items that will run out or expire before mission end are flagged, critical items as alerts. The module manages inventory only and never recommends a medicine or dose.",
+      "sources": [
+        {
+          "title": "Five Hazards of Human Spaceflight",
+          "url": "https://www.nasa.gov/hrp/hazards/",
+          "agency": "NASA"
+        },
+        {
+          "title": "Why do we conduct science experiments in space?",
+          "url": "https://www.asc-csa.gc.ca/eng/iss/science/why-do-we-conduct-science-experiments-in-space.asp",
+          "agency": "Canadian Space Agency"
+        }
+      ],
+      "kind": "Project method"
+    },
+    {
+      "id": "report-module",
+      "title": "Flight surgeon report",
+      "text": "The flight surgeon report summarises one crew member over 7, 14 or 30 days: status and findings, vital-sign statistics against the personal range, charts, reaction-time tests, exercise compliance, symptoms and items dispensed, plus notes from the crew medical officer. It prints or saves as PDF for the private medical conference.",
+      "sources": [
+        {
+          "title": "AstroCare methods and limitations",
+          "url": "/research-methods.md",
+          "agency": "AstroCare project"
+        }
+      ],
+      "kind": "Project behavior"
+    }
+  ]
+}

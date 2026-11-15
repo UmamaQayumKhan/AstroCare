@@ -1,0 +1,6 @@
+import {readdir,writeFile} from 'node:fs/promises';
+import {createHash} from 'node:crypto';
+async function walk(dir){const entries=await readdir(dir,{withFileTypes:true});return (await Promise.all(entries.map(x=>x.isDirectory()?walk(dir+'/'+x.name):dir+'/'+x.name))).flat();}
+const files=(await walk('dist')).filter(x=>!x.endsWith('sw.js')&&!x.endsWith('.zip')).map(x=>'./'+x.slice(5));
+const version=createHash('sha256').update(files.join('|')+Date.now()).digest('hex').slice(0,12);
+await writeFile('dist/sw.js',`const CACHE='astrocare-${version}';const ASSETS=${JSON.stringify(['./',...files])};self.addEventListener('install',e=>e.waitUntil(caches.open(CACHE).then(c=>c.addAll(ASSETS))));self.addEventListener('activate',e=>e.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(k=>k.startsWith('astrocare-')&&k!==CACHE).map(k=>caches.delete(k)))).then(()=>self.clients.claim())));self.addEventListener('fetch',e=>{const u=new URL(e.request.url);if(e.request.method!=='GET'||u.origin!==location.origin||u.pathname.includes('/api/'))return;e.respondWith(caches.match(e.request).then(c=>c||fetch(e.request).catch(()=>e.request.mode==='navigate'?caches.match('./index.html'):Response.error())));});`);
