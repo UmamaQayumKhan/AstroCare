@@ -1,0 +1,357 @@
+{
+  "accessed": "2026-11-14",
+  "contentStatus": "Educational summaries; no clinical protocol or NASA approval. Feature mappings are AstroCare design decisions.",
+  "sources": [
+    {
+      "id": "hazards",
+      "title": "Five Hazards of Human Spaceflight",
+      "agency": "NASA",
+      "url": "https://www.nasa.gov/hrp/hazards/",
+      "accessed": "2026-11-14",
+      "summary": "NASA organizes human spaceflight challenges into five interacting hazards.",
+      "feature": "Five-hazard explorer and mission-context explanations",
+      "type": "Educational background"
+    },
+    {
+      "id": "risks",
+      "title": "Risks of Human Spaceflight",
+      "agency": "NASA",
+      "url": "https://www.nasa.gov/hrp/risks/",
+      "accessed": "2026-11-14",
+      "summary": "Spaceflight can affect circulation, balance, immunity, nutrition and other aspects of health. Effects differ by mission destination.",
+      "feature": "Why-we-monitor explanations and symptom context",
+      "type": "Research background"
+    },
+    {
+      "id": "research",
+      "title": "Ongoing HRP Research in Space",
+      "agency": "NASA",
+      "url": "https://www.nasa.gov/hrp/ongoing-hrp-research/",
+      "accessed": "2026-11-14",
+      "summary": "NASA describes investigations including ARCHeR, which monitored activity, sleep and wellbeing, and Standard Measures, which collects consistent physiological and psychological information.",
+      "feature": "Sleep history, consistent check-ins and research cards",
+      "type": "Research overview, not clinical guidance"
+    },
+    {
+      "id": "radiation",
+      "title": "Monitoring radiation for astronaut health",
+      "agency": "Canadian Space Agency",
+      "url": "https://www.asc-csa.gc.ca/eng/news/articles/2026/2026-02-26-monitoring-radiation-astronaut-health.asp",
+      "accessed": "2026-11-14",
+      "summary": "The Canadian Active Neutron Spectrometer is being developed for continuous, autonomous neutron-radiation measurements. The article discusses instrumentation, not a live data service.",
+      "feature": "Radiation education beside explicitly simulated instrument readings",
+      "type": "Technology development"
+    },
+    {
+      "id": "earth",
+      "title": "Why do we conduct science experiments in space?",
+      "agency": "Canadian Space Agency",
+      "url": "https://www.asc-csa.gc.ca/eng/iss/science/why-do-we-conduct-science-experiments-in-space.asp",
+      "accessed": "2026-11-14",
+      "summary": "Space experiments support deep-space preparation and knowledge that can benefit health on Earth. Longer missions face communication delays and reduced access to supplies and emergency medical assistance.",
+      "feature": "Offline design rationale and Space-to-Earth section",
+      "type": "Educational background"
+    },
+    {
+      "id": "pulse",
+      "title": "Pulse",
+      "agency": "MedlinePlus / U.S. National Library of Medicine",
+      "url": "https://medlineplus.gov/ency/article/003399.htm",
+      "accessed": "2026-11-14",
+      "summary": "A pulse can be counted at the wrist. Activity and measurement context matter when comparing readings.",
+      "feature": "General educational pulse measurement card",
+      "type": "General education, not a spaceflight procedure"
+    },
+    {
+      "id": "temperature",
+      "title": "Temperature measurement",
+      "agency": "MedlinePlus / U.S. National Library of Medicine",
+      "url": "https://www.medlineplus.gov/ency/article/003400.htm",
+      "accessed": "2026-11-14",
+      "summary": "Temperature can help identify illness. Measurement method and recent activity, eating or drinking affect interpretation.",
+      "feature": "Temperature method and context instructions",
+      "type": "General education, not a spaceflight procedure"
+    },
+    {
+      "id": "bp",
+      "title": "Home Blood Pressure Monitoring",
+      "agency": "American Heart Association",
+      "url": "https://www.heart.org/en/health-topics/high-blood-pressure/understanding-blood-pressure-readings/monitoring-your-blood-pressure-at-home",
+      "accessed": "2026-11-14",
+      "summary": "Validated upper-arm devices, appropriate cuffs, quiet rest and consistent positioning support reliable home measurements.",
+      "feature": "Earth-based blood pressure training card",
+      "type": "Earth-based education, not a microgravity protocol"
+    },
+    {
+      "id": "bpCategories",
+      "title": "Understanding Blood Pressure Readings",
+      "agency": "American Heart Association",
+      "url": "https://www.heart.org/en/health-topics/high-blood-pressure/understanding-blood-pressure-readings",
+      "summary": "Blood pressure categories for adults: normal below 120/80 mmHg, elevated 120-129 systolic, stage 1 130-139 or 80-89, stage 2 at or above 140 or 90 mmHg.",
+      "feature": "Reference-range layer of the monitoring engine (systolic and diastolic flags)",
+      "type": "Earth adult reference ranges, not microgravity-specific",
+      "accessed": "2026-11-15"
+    },
+    {
+      "id": "sleepCdc",
+      "title": "About Sleep",
+      "agency": "CDC",
+      "url": "https://www.cdc.gov/sleep/about/index.html",
+      "summary": "Adults generally need 7 or more hours of sleep per night; insufficient sleep affects health and performance.",
+      "feature": "Sleep reference flags (under 6 h watch, under 4.5 h alert)",
+      "type": "Public-health guidance",
+      "accessed": "2026-11-15"
+    },
+    {
+      "id": "glucoseRef",
+      "title": "Blood glucose test",
+      "agency": "MedlinePlus / U.S. National Library of Medicine",
+      "url": "https://medlineplus.gov/ency/article/003482.htm",
+      "summary": "Fasting blood glucose of 70-99 mg/dL is the usual normal range; values below 70 mg/dL are low. Meal timing changes interpretation.",
+      "feature": "Glucose reference flags and the requirement to record fasting or meal context",
+      "type": "General education",
+      "accessed": "2026-11-15"
+    },
+    {
+      "id": "osd575",
+      "title": "OSD-575: Inspiration4 comprehensive metabolic panel",
+      "agency": "NASA Open Science Data Repository",
+      "url": "https://osdr.nasa.gov/bio/repo/data/studies/OSD-575",
+      "summary": "Blood chemistry from the four civilian Inspiration4 crew at three pre-flight and four post-flight timepoints, with laboratory reference ranges.",
+      "feature": "Spaceflight biomarker explorer: per-crew trajectories and change from each person's own pre-flight baseline",
+      "type": "Real spaceflight research data",
+      "accessed": "2026-11-15"
+    },
+    {
+      "id": "radCruise",
+      "title": "Measurements of energetic particle radiation in transit to Mars on the Mars Science Laboratory",
+      "agency": "Zeitlin et al., Science (2013)",
+      "url": "https://doi.org/10.1126/science.1235989",
+      "summary": "The RAD instrument measured an average dose-equivalent rate of about 1.84 mSv per day inside the spacecraft during cruise to Mars.",
+      "feature": "Mars-transit dose rate in the radiation mission planner",
+      "type": "Peer-reviewed measurement",
+      "accessed": "2026-11-15"
+    },
+    {
+      "id": "radMars",
+      "title": "Mars' surface radiation environment measured with the Mars Science Laboratory's Curiosity rover",
+      "agency": "Hassler et al., Science (2014)",
+      "url": "https://doi.org/10.1126/science.1244797",
+      "summary": "Curiosity's RAD measured an average dose-equivalent rate of about 0.64 mSv per day on the Martian surface.",
+      "feature": "Mars-surface dose rate in the radiation mission planner",
+      "type": "Peer-reviewed measurement",
+      "accessed": "2026-11-15"
+    },
+    {
+      "id": "radMoon",
+      "title": "First measurements of the radiation dose on the lunar surface",
+      "agency": "Zhang et al., Science Advances (2020)",
+      "url": "https://doi.org/10.1126/sciadv.aaz1334",
+      "summary": "Chang'e 4's Lunar Lander Neutron and Dosimetry experiment measured a dose-equivalent rate of about 1.37 mSv per day on the lunar surface.",
+      "feature": "Lunar-surface dose rate in the radiation mission planner",
+      "type": "Peer-reviewed measurement",
+      "accessed": "2026-11-15"
+    },
+    {
+      "id": "physionet",
+      "title": "PhysioNet/Computing in Cardiology Challenge 2012",
+      "agency": "PhysioNet",
+      "url": "https://physionet.org/content/challenge-2012/1.0.0/",
+      "summary": "Open ICU dataset of 8,000 stays with time-stamped vital signs. AstroCare trains next-observation forecasters on heart rate, blood pressure and temperature.",
+      "feature": "Live-monitor forecast models and their conformal expected-range bands",
+      "type": "Research dataset (Earth ICU population)",
+      "accessed": "2026-11-15"
+    },
+    {
+      "id": "pvtBasner",
+      "title": "Maximizing sensitivity of the psychomotor vigilance test (PVT) to sleep loss",
+      "agency": "Basner & Dinges, SLEEP (2011)",
+      "url": "https://doi.org/10.1093/sleep/34.5.581",
+      "summary": "Defines the brief 3-minute PVT (PVT-B): 2-5 s random intervals, lapses as responses of 355 ms or longer, and shows it remains sensitive to sleep loss.",
+      "feature": "Cognitive performance module: test protocol, lapse threshold and scoring",
+      "type": "Peer-reviewed method",
+      "accessed": "2026-11-15"
+    },
+    {
+      "id": "cognitionBattery",
+      "title": "Development and validation of the Cognition test battery for spaceflight",
+      "agency": "Basner et al., Aerospace Medicine and Human Performance (2015)",
+      "url": "https://doi.org/10.3357/AMHP.4343.2015",
+      "summary": "Describes a 10-test cognitive battery, including a PVT, designed for astronauts and used in spaceflight research.",
+      "feature": "Rationale for repeated cognitive self-tests on long missions",
+      "type": "Peer-reviewed method",
+      "accessed": "2026-11-15"
+    }
+  ],
+  "hazards": [
+    {
+      "id": "radiation",
+      "title": "Space radiation",
+      "summary": "Radiation is invisible and presents a major spaceflight hazard.",
+      "monitoring": "Explore simulated instrument history. Ordinary vital signs do not measure radiation exposure.",
+      "sourceIds": [
+        "hazards",
+        "radiation"
+      ]
+    },
+    {
+      "id": "isolation",
+      "title": "Isolation and confinement",
+      "summary": "Long periods in confined groups can affect behavior and teamwork.",
+      "monitoring": "Record sleep and self-reported mood; these are observations, not a mental-health diagnosis.",
+      "sourceIds": [
+        "hazards",
+        "research"
+      ]
+    },
+    {
+      "id": "distance",
+      "title": "Distance from Earth",
+      "summary": "Medical care, advice and supplies become harder to obtain farther from Earth.",
+      "monitoring": "Keep guidance and records available offline. Export a handover for later communication.",
+      "sourceIds": [
+        "hazards",
+        "earth"
+      ]
+    },
+    {
+      "id": "gravity",
+      "title": "Changing gravity",
+      "summary": "Muscles, bones, balance and internal organs adapt to different gravity conditions.",
+      "monitoring": "Log symptoms and measurement context. Routine vital signs do not quantify bone density.",
+      "sourceIds": [
+        "hazards",
+        "risks"
+      ]
+    },
+    {
+      "id": "environment",
+      "title": "Hostile and closed environments",
+      "summary": "Spacecraft must manage conditions including temperature, pressure, noise and microbial communities.",
+      "monitoring": "Track observations and symptoms. Cabin conditions require dedicated environmental sensors.",
+      "sourceIds": [
+        "hazards",
+        "risks"
+      ]
+    }
+  ],
+  "measurements": [
+    {
+      "id": "heartRate",
+      "title": "Heart rate",
+      "unit": "bpm",
+      "why": "A consistent pulse history describes cardiovascular observations; it does not identify their cause.",
+      "instructions": [
+        "For a resting reading, rest first and record recent activity.",
+        "Place the index and middle fingers under the opposite wrist, below the thumb base.",
+        "Count beats for one full minute and record the result and time."
+      ],
+      "sourceIds": [
+        "pulse",
+        "risks"
+      ],
+      "scope": "General education; use mission-approved procedures in flight."
+    },
+    {
+      "id": "bloodPressure",
+      "title": "Blood pressure",
+      "unit": "mmHg",
+      "why": "NASA studies cardiovascular adaptation in weightlessness. Record both values and measurement context.",
+      "instructions": [
+        "Earth training example: use a validated upper-arm monitor with the correct cuff size.",
+        "Rest quietly for at least five minutes; place the cuff on bare skin and support the arm at heart level.",
+        "Follow device instructions; take two readings one minute apart and record each."
+      ],
+      "sourceIds": [
+        "bp",
+        "risks"
+      ],
+      "scope": "Earth-based guidance. These posture instructions are not validated microgravity procedures."
+    },
+    {
+      "id": "temperature",
+      "title": "Body temperature",
+      "unit": "°C",
+      "why": "Temperature can help assess illness; measurement method affects comparisons.",
+      "instructions": [
+        "Use a digital thermometer and follow its cleaning and operating instructions.",
+        "For oral measurement, position the probe under the tongue, close the mouth and wait for the device signal.",
+        "Record the site, value and time. Recent exercise, food and hot or cold drinks may affect readings."
+      ],
+      "sourceIds": [
+        "temperature"
+      ],
+      "scope": "General education; follow the mission-approved device procedure."
+    },
+    {
+      "id": "sleep",
+      "title": "Sleep duration",
+      "unit": "hours",
+      "why": "NASA's ARCHeR research includes sleep, activity and wellbeing observations.",
+      "instructions": [
+        "Enter estimated total sleep during the previous 24 hours.",
+        "Use the same reporting window each time.",
+        "Mark this as self-report, not a wearable measurement."
+      ],
+      "sourceIds": [
+        "research"
+      ],
+      "scope": "AstroCare reporting convention, not a validated questionnaire."
+    },
+    {
+      "id": "mood",
+      "title": "Mood check-in",
+      "unit": "1-5 self-report",
+      "why": "Wellbeing observations can support conversations about how someone feels.",
+      "instructions": [
+        "Choose the rating that best matches how you feel now.",
+        "Add context in your own words.",
+        "This app-designed scale does not diagnose a condition."
+      ],
+      "sourceIds": [
+        "research"
+      ],
+      "scope": "Unvalidated self-report scale."
+    },
+    {
+      "id": "glucose",
+      "title": "Blood glucose",
+      "unit": "mg/dL",
+      "why": "Record a measured glucose value together with the method and fasting or meal context. Research forecasts do not diagnose a condition.",
+      "instructions": [
+        "Use the mission-approved glucose device and follow its instructions.",
+        "Check that the device uses mg/dL before entering a reading; do not enter mmol/L in this field.",
+        "Record the time, device, measurement method and fasting or meal context. Do not change medication based on this prototype."
+      ],
+      "sourceIds": [
+        "risks"
+      ],
+      "scope": "AstroCare logging convention; NASA risks motivate the feature but do not provide a glucose measurement or treatment protocol."
+    }
+  ],
+  "researchCards": [
+    {
+      "title": "Sleep and wellbeing",
+      "text": "ARCHeR investigated wellbeing, activity and sleep. It motivates consistent self-reports, but does not validate AstroCare alerts.",
+      "sourceIds": [
+        "research"
+      ]
+    },
+    {
+      "title": "Consistent observations",
+      "text": "Standard Measures collects physiological and psychological information. AstroCare preserves units, time and provenance for understandable histories.",
+      "sourceIds": [
+        "research"
+      ]
+    },
+    {
+      "title": "Space to Earth",
+      "text": "Offline logging and clear explanations could be explored for remote communities. This is a proposed application, not a demonstrated clinical benefit.",
+      "sourceIds": [
+        "earth"
+      ]
+    }
+  ],
+  "emergencyBoundary": "The five challenge resources are not complete emergency treatment protocols. Use an explicitly labelled observation-and-handover simulation until a mission-appropriate protocol is verified and reviewed. Do not invent medication, CPR, oxygen or evacuation steps. No observations are transmitted unless transport is implemented.",
+  "radiationBoundary": "No live sensor is connected. Synthetic numbers illustrate interface behavior only. Do not claim CANS data, radiation prediction, clinical dose limits or conversion between absorbed and equivalent dose without a justified model."
+}
